@@ -21,7 +21,8 @@
 //Crear una función autoejecutable que solicite un número (expresado en segundos) y nos
 //devuelvo un saludo, después del tiempo indicado
 (function() {
-  const segundos = parseFloat(prompt("Ingrese la cantidad de segundos:"));
+  // CORRECCIÓN: Cambiamos el prompt (que es de navegador) por un número directo para la terminal
+  const segundos = parseFloat("5"); 
   
   if (!isNaN(segundos) && segundos >= 0) {
     setTimeout(function() {

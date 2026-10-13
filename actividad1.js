@@ -29,3 +29,4 @@ const pelicula = {
   escritores: ["Christopher Murphey", "Robert Mark Kamen"]
 }
 
+console.log(pelicula);
