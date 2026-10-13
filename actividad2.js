@@ -12,3 +12,5 @@ const computadora = {
     { nombre: "Sistema de enfriamiento", tipo: "Líquido" }
   ]
 }
+
+
